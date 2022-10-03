@@ -1,0 +1,32 @@
+*{
+    background-color: papayawhip;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+#image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+#figure{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    max-width: 100%;
+}
+#img-caption {
+    margin: 15px 0 5px 0;
+    text-align: center;
+}
+ul, h2, p{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
